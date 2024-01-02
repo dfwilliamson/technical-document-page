@@ -1,0 +1,66 @@
+@media (min-width: 100px) {
+  #navbar {
+    width: 100px;
+  }
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+#navbar {
+  background-color: #0D0F11;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 15px;
+  width: 150px;
+  height: 100%;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #555;
+}
+
+#navbar a:hover {
+  background-color: #555;
+}
+
+#navbar header {
+  font-weight: bold;
+  color: #E8E9E9;
+  font-size: 1.7em;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+main {
+  padding-left: 200px;
+  padding-top: 10px;
+}
+
+section {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #CFCFCF;
+}
+
+#learn_more {
+  border-bottom: none;
+}
+
+code {
+  background-color: #F7F5F8;
+}
+
+a {
+  color: #C93814;
+}
+
+a:hover {
+  color: #79E1ED;
+}
